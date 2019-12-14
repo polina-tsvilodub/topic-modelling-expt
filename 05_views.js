@@ -39,7 +39,7 @@ const intro = magpieViews.view_generator("intro", {
   name: 'intro',
   // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
   text: `Thank you for participating in our study. Here, we are investigating how coherent topics are.
-  The study will take about 5-8 minutes.
+  The study will take about 4 minutes.
             <br />
             <br />
             By continuing, you are participating in an experiment performed by graduate students of the MIT Brain and Cognitive
@@ -60,7 +60,7 @@ const instructions = magpieViews.view_generator("instructions", {
   trials: 1,
   name: 'instructions',
   title: 'General Instructions',
-  text: `In this experiment, you will see 50 collections of six words each. Five of these words belong
+  text: `In this experiment, you will see 30 collections of six words each. Five of these words belong
             to the same topic, one word is an intruder. Your task will be to <strong> find the intruder, i.e., the odd word out </strong>.
             <br />
             <br />

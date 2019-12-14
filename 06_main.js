@@ -26,12 +26,12 @@ $("document").ready(function() {
         // Here, you can specify all information for the deployment
         deploy: {
             experimentID: "31",
-            serverAppURL: "https://pragmatics-ptb.herokuapp.com//api/submit_experiment/",
+            serverAppURL: "https://pragmatics-ptb.herokuapp.com/api/submit_experiment/",
             // Possible deployment methods are:
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
             deployMethod: "MTurk",
-            contact_email: "YOUREMAIL@wherelifeisgreat.you",
+            contact_email: "ckauf@mit.edu",
             prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
         // Here, you can specify how the progress bar should look like
